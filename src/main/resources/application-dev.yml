@@ -7,9 +7,10 @@ spring:
   datasource:
     druid:
       driver-class-name: com.mysql.cj.jdbc.Driver     # 数据库驱动
-      url: /MysqlUrl/    # 数据库链接
-      username: /confidential/     # 数据库账号
-      password: /confidential/     # 数据库密码
+      url: jdbc:mysql://cdb-oz4c457y.cd.tencentcdb.com:10074/TDTg    # 数据库链接
+      username: root     # 数据库账号
+      password: Iamtheking#BD626    # 数据库密码
   devtools:
     restart:
       enabled: true     # 开启热更新
+

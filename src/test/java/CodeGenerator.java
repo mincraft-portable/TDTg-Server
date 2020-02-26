@@ -13,10 +13,10 @@ import com.baomidou.mybatisplus.generator.engine.FreemarkerTemplateEngine;
 public class CodeGenerator {
 
     private static String AUTHOR = "Zeshawn";
-    private static String DATABASE = "books";
+    private static String DATABASE = "TDTg";
     private static String DATABASE_USERNAME = "root";
-    private static String DATABASE_PASSWORD = "aaa691013";
-    private static String PROJECT = "com.zeshawn.book";
+    private static String DATABASE_PASSWORD = "Iamtheking#BD626";
+    private static String PROJECT = "com.minecraftportable.TDTg";
 
     /**
      * <p>
@@ -49,7 +49,7 @@ public class CodeGenerator {
 
         // 数据源配置
         DataSourceConfig dsc = new DataSourceConfig();
-        dsc.setUrl("jdbc:mysql://localhost:3306/"+DATABASE+"?serverTimezone=Asia/Shanghai&useUnicode=true&useSSL=false&characterEncoding=utf8");
+        dsc.setUrl("jdbc:mysql://cdb-oz4c457y.cd.tencentcdb.com:10074/TDTg");
         // dsc.setSchemaName("public");
         dsc.setDriverName("com.mysql.cj.jdbc.Driver");
         dsc.setUsername(DATABASE_USERNAME);
